@@ -6,10 +6,6 @@ import traceback
 #configure the logging details   
 logging.basicConfig(filename='log.txt',level=logging.INFO,format='%(asctime)s:%(levelname)s:%(message)s')
 
-
-
-
-
 def parsing(sample_ddl):
     
     try:

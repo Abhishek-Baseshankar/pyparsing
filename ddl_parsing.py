@@ -728,7 +728,6 @@ class DdlParse(DdlParseBase):
 
         
        
-       
         #print(ret.dump())
 
         if "schema" in ret:
