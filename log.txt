@@ -88,3 +88,93 @@
     }
   }
 ]
+2021-04-13 13:54:56,427:INFO:[
+  "Orders",
+  {
+    "name": "OrderID",
+    "data_type": "INT",
+    "length": 11,
+    "precision(=length)": 11,
+    "scale": null,
+    "is_unsigned": false,
+    "is_zerofill": false,
+    "constraint": "PRIMARY KEY NOT NULL",
+    "not_null": true,
+    "PK": true,
+    "FK": false,
+    "unique": false,
+    "auto_increment": false,
+    "distkey": false,
+    "sortkey": false,
+    "encode": null,
+    "default": null,
+    "character_set": null,
+    "bq_legacy_data_type": "INTEGER",
+    "bq_standard_data_type": "INT64",
+    "comment": null,
+    "description(=comment)": null,
+    "bigquery_field": {
+      "name": "OrderID",
+      "type": "INTEGER",
+      "mode": "REQUIRED"
+    }
+  },
+  {
+    "name": "OrderNumber",
+    "data_type": "INT",
+    "length": 11,
+    "precision(=length)": 11,
+    "scale": null,
+    "is_unsigned": false,
+    "is_zerofill": false,
+    "constraint": "NOT NULL NOT NULL",
+    "not_null": true,
+    "PK": false,
+    "FK": false,
+    "unique": false,
+    "auto_increment": false,
+    "distkey": false,
+    "sortkey": false,
+    "encode": null,
+    "default": null,
+    "character_set": null,
+    "bq_legacy_data_type": "INTEGER",
+    "bq_standard_data_type": "INT64",
+    "comment": null,
+    "description(=comment)": null,
+    "bigquery_field": {
+      "name": "OrderNumber",
+      "type": "INTEGER",
+      "mode": "REQUIRED"
+    }
+  },
+  {
+    "name": "PersonID",
+    "data_type": "INT",
+    "length": 11,
+    "precision(=length)": 11,
+    "scale": null,
+    "is_unsigned": false,
+    "is_zerofill": false,
+    "constraint": "NOT NULL FOREIGN KEY",
+    "not_null": true,
+    "PK": false,
+    "FK": true,
+    "unique": false,
+    "auto_increment": false,
+    "distkey": false,
+    "sortkey": false,
+    "encode": null,
+    "default": "NULL",
+    "character_set": null,
+    "bq_legacy_data_type": "INTEGER",
+    "bq_standard_data_type": "INT64",
+    "comment": null,
+    "description(=comment)": null,
+    "bigquery_field": {
+      "name": "PersonID",
+      "type": "INTEGER",
+      "mode": "REQUIRED"
+    }
+  }
+]
